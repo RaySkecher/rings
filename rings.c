@@ -85,3 +85,6 @@ int32_t intersect_ring(Ray r, Ring ring) {
 
 //call setup_rings in main():
     setup_rings();
+
+// add this in forward declarations
+int32_t intersect_ring(Ray r, Ring ring);
